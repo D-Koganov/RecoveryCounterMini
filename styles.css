@@ -10,9 +10,21 @@ div {
 
 span {
     font-size: 3rem;
-    padding: 1rem;
+    word-spacing: -1rem;
+    letter-spacing: -0.1rem;
+    font-family: monospace;
 }
 
 .header {
     font-weight: bold;
+    margin: 0px;
+    padding: 0;
+}
+
+.header > .firstLine {
+    margin-bottom: -1rem;
+}
+
+.header > .lastLine {
+    padding-bottom: 1.5 rem;
 }
