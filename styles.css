@@ -1,29 +1,27 @@
-h1 {
-    font-size: 3.5rem;
-    text-align: center;
-    padding-bottom: 2rem;
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-div {
+.weirdHeader {
+    font-size: 10vw;
     text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 900;
 }
 
-span {
-    font-size: 3rem;
+.counter {
     word-spacing: -0.1rem;
+    text-align: center;
     /* letter-spacing: -0.1rem; */
 }
 
-.header {
-    font-weight: bold;
-    margin: 0px;
-    padding: 0;
+#past {
+    font-size: 11vw;
+    margin-top: 10vh;
 }
 
-.header > .firstLine {
-    margin-bottom: -1rem;
-}
-
-.header > .lastLine {
-    padding-bottom: 1.5 rem;
+#left {
+    font-size: 11vw;
 }
