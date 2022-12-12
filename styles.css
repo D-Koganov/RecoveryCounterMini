@@ -20,7 +20,7 @@ body {
 .weirdHeader {
     font-size: 13vw;
     text-align: center;
-    margin-top: 1rem;/*0.5rem;*/
+    margin-top: 0.5em;/*1rem;*/
     font-weight: 900;
     line-height: 0.9em;/*0.7em;*/
 }
@@ -33,7 +33,7 @@ body {
 
 #past {
     font-size: 13vw;
-    margin-top: 10vh;
+    margin-top: 9vh; /*10vh*/
 }
 
 #left {
